@@ -1,0 +1,29 @@
+{
+  "template": "template1",
+  "title": "Zyra Vista",
+  "subheading": "A Signature residential development by Lardix Developers",
+  "description": "Zyra Vista rises in the heart of Al Warsan with modern layouts, panoramic podium views and resort-style facilities. Choose from spacious 1 & 2-bed units, relax by the sun-lit infinity pool or work from the breezy co-working lounge – all 15 minutes from Downtown Dubai.",
+  "video": "video.mp4",
+  "image": "logo.png",
+
+  "gallery": ["1.jpg","2.jpg","3.jpg","4.jpg","5.png"],
+
+  "unit_types": [
+    { "title": "1 Bed Apartment",
+      "description": "From AED 999 000 – 650-750 sq ft",
+      "image": "1bed.jpg" },
+    { "title": "2 Bed Apartment",
+      "description": "From AED 1.4 M – 1 200-1 300 sq ft",
+      "image": "2bed.jpg" }
+  ],
+
+  "amenities": ["Swimming Pool","Kids Play Area","Security","Pet Garden"],
+
+  "location": { "lat": 25.2048, "lng": 55.2708 },
+
+  "documents": {
+    "brochure":  "brochure.pdf",
+    "paymentplan": "paymentplan.pdf",
+    "factsheet": "factsheet.pdf"
+  }
+}
