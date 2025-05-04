@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
       phone:     document.getElementById("phone").value.trim(),
       projectId
     };
-    const res = await fetch("http://localhost:3000/submit-lead", {
+    const res = await fetch("https://www.sprecrm.com/submit-lead", {
       method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload)
     });
     if (res.ok) successMsg.style.display = "block";
